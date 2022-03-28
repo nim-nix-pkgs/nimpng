@@ -11,7 +11,6 @@
   inputs.src-nimPNG-master.ref   = "refs/heads/master";
   inputs.src-nimPNG-master.owner = "jangko";
   inputs.src-nimPNG-master.repo  = "nimPNG";
-  inputs.src-nimPNG-master.dir   = "";
   inputs.src-nimPNG-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
